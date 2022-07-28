@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+django = "==4.0.6"
+djangorestframework-simplejwt = "*"
+django-phonenumber-field = {extras = ["phonenumbers"], version = "*"}
+phonenumbers = "==8.12.51"
+python-decouple = "==3.6"
+decouple = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
